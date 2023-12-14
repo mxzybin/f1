@@ -1,0 +1,19 @@
+.standings {
+    &-position {
+        display: flex;
+        justify-content: space-between;
+        column-gap: 20px;
+
+        &:first-child {
+            color: #FFD700;
+        }
+    }
+
+    &-number {
+        min-width: 24px;
+    }
+
+    &-name {
+        margin-right: auto;
+    }
+}
