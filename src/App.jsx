@@ -6,7 +6,7 @@ import SeasonSelect from './components/seasonSelect/SeasonSelect'
 
 
 function App() {
-  const [season, setSeason] = useState(2012)
+  const [season, setSeason] = useState(2023)
 
   function selectSeason(year) {
     setSeason(year)
